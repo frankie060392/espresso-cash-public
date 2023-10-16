@@ -11,7 +11,10 @@ dependencies:
   build: ^2.1.1
   http: ^1.1.0
   solana:
-    path: ../solana
+    git:
+      url: https://github.com/frankie060392/espresso-cash-public.git
+      ref: master
+      path: packages/solana
   source_gen: ^1.1.1
 
 dev_dependencies:

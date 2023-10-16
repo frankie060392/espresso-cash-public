@@ -28,6 +28,9 @@ dev_dependencies:
   freezed: ^2.0.0
   json_serializable: ^6.0.0
   jsonrpc_client:
-    path: ../jsonrpc_client
+    git:
+      url: https://github.com/frankie060392/espresso-cash-public.git
+      ref: master
+      path: packages/jsonrpc_client
   mews_pedantic: ^0.19.0
   test: ^1.17.11
